@@ -1,0 +1,280 @@
+ Log Type: syslog
+
+Log Upload Time: Sun Aug 19 11:15:40 -0700 2018
+
+Log Length: 52462
+
+2018-08-19 23:34:43,414 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1521362559855_0013_000001
+2018-08-19 23:34:55,496 WARN [main] org.apache.hadoop.util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-08-19 23:35:01,614 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Executing with tokens:
+2018-08-19 23:35:01,615 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Kind: YARN_AM_RM_TOKEN, Service: , Ident: (org.apache.hadoop.yarn.security.AMRMTokenIdentifier@137b2615)
+2018-08-19 23:35:15,282 WARN [main] org.apache.hadoop.hdfs.shortcircuit.DomainSocketFactory: The short-circuit local reads feature cannot be used because libhadoop cannot be loaded.
+2018-08-19 23:35:16,668 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter set in config org.apache.hadoop.hive.ql.io.HiveFileFormatUtils$NullOutputCommitter
+2018-08-19 23:35:16,684 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: OutputCommitter is org.apache.hadoop.hive.ql.io.HiveFileFormatUtils$NullOutputCommitter
+2018-08-19 23:35:18,860 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.jobhistory.EventType for class org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler
+2018-08-19 23:35:18,902 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobEventDispatcher
+2018-08-19 23:35:18,929 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher
+2018-08-19 23:35:18,958 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher
+2018-08-19 23:35:18,959 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventType for class org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler
+2018-08-19 23:35:19,168 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.speculate.Speculator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$SpeculatorEventDispatcher
+2018-08-19 23:35:19,319 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter
+2018-08-19 23:35:19,363 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter
+2018-08-19 23:35:21,130 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://quickstart.cloudera:8020]
+2018-08-19 23:35:22,027 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://quickstart.cloudera:8020]
+2018-08-19 23:35:22,228 INFO [main] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://quickstart.cloudera:8020]
+2018-08-19 23:35:22,296 INFO [main] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Emitting job history data to the timeline server is not enabled
+2018-08-19 23:35:23,890 INFO [main] org.apache.hadoop.yarn.event.AsyncDispatcher: Registering class org.apache.hadoop.mapreduce.v2.app.job.event.JobFinishEvent$Type for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$JobFinishEventHandler
+2018-08-19 23:35:29,952 WARN [main] org.apache.hadoop.metrics2.impl.MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-mrappmaster.properties,hadoop-metrics2.properties
+2018-08-19 23:35:30,347 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: Scheduled snapshot period at 10 second(s).
+2018-08-19 23:35:30,349 INFO [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl: MRAppMaster metrics system started
+2018-08-19 23:35:30,417 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Adding job token for job_1521362559855_0013 to jobTokenSecretManager
+2018-08-19 23:35:30,844 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Not uberizing job_1521362559855_0013 because: not enabled;
+2018-08-19 23:35:30,902 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Input size for job job_1521362559855_0013 = 527958. Number of splits = 1
+2018-08-19 23:35:30,902 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Number of reduces for job job_1521362559855_0013 = 0
+2018-08-19 23:35:30,903 INFO [main] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1521362559855_0013Job Transitioned from NEW to INITED
+2018-08-19 23:35:30,905 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: MRAppMaster launching normal, non-uberized, multi-container job job_1521362559855_0013.
+2018-08-19 23:35:31,093 INFO [main] org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2018-08-19 23:35:31,183 INFO [Socket Reader #1 for port 58767] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 58767
+2018-08-19 23:35:31,367 INFO [main] org.apache.hadoop.yarn.factories.impl.pb.RpcServerFactoryPBImpl: Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server
+2018-08-19 23:35:31,422 INFO [main] org.apache.hadoop.mapreduce.v2.app.client.MRClientService: Instantiated MRClientService at quickstart.cloudera/192.168.93.128:58767
+2018-08-19 23:35:31,368 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2018-08-19 23:35:31,414 INFO [IPC Server listener on 58767] org.apache.hadoop.ipc.Server: IPC Server listener on 58767: starting
+2018-08-19 23:35:31,930 INFO [main] org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2018-08-19 23:35:31,966 INFO [main] org.apache.hadoop.security.authentication.server.AuthenticationFilter: Unable to initialize FileSignerSecretProvider, falling back to use random secrets.
+2018-08-19 23:35:32,029 INFO [main] org.apache.hadoop.http.HttpRequestLog: Http request log for http.requests.mapreduce is not defined
+2018-08-19 23:35:32,096 INFO [main] org.apache.hadoop.http.HttpServer2: Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)
+2018-08-19 23:35:32,125 INFO [main] org.apache.hadoop.http.HttpServer2: Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce
+2018-08-19 23:35:32,125 INFO [main] org.apache.hadoop.http.HttpServer2: Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static
+2018-08-19 23:35:32,157 INFO [main] org.apache.hadoop.http.HttpServer2: adding path spec: /mapreduce/*
+2018-08-19 23:35:32,158 INFO [main] org.apache.hadoop.http.HttpServer2: adding path spec: /ws/*
+2018-08-19 23:35:32,203 INFO [main] org.apache.hadoop.http.HttpServer2: Jetty bound to port 37286
+2018-08-19 23:35:32,203 INFO [main] org.mortbay.log: jetty-6.1.26.cloudera.4
+2018-08-19 23:35:32,363 INFO [main] org.mortbay.log: Extract jar:file:/usr/lib/hadoop-yarn/hadoop-yarn-common-2.6.0-cdh5.8.0.jar!/webapps/mapreduce to /tmp/Jetty_0_0_0_0_37286_mapreduce____.24xbbn/webapp
+2018-08-19 23:35:37,173 INFO [main] org.mortbay.log: Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:37286
+2018-08-19 23:35:37,174 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Web app /mapreduce started at 37286
+2018-08-19 23:35:40,335 INFO [main] org.apache.hadoop.yarn.webapp.WebApps: Registered webapp guice modules
+2018-08-19 23:35:40,400 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: JOB_CREATE job_1521362559855_0013
+2018-08-19 23:35:40,402 INFO [main] org.apache.hadoop.ipc.CallQueueManager: Using callQueue class java.util.concurrent.LinkedBlockingQueue
+2018-08-19 23:35:40,424 INFO [Socket Reader #1 for port 43179] org.apache.hadoop.ipc.Server: Starting Socket Reader #1 for port 43179
+2018-08-19 23:35:40,438 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2018-08-19 23:35:40,453 INFO [IPC Server listener on 43179] org.apache.hadoop.ipc.Server: IPC Server listener on 43179: starting
+2018-08-19 23:35:40,868 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: nodeBlacklistingEnabled:true
+2018-08-19 23:35:40,869 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: maxTaskFailuresPerNode is 3
+2018-08-19 23:35:40,869 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: blacklistDisablePercent is 33
+2018-08-19 23:35:41,302 INFO [main] org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at /0.0.0.0:8030
+2018-08-19 23:35:43,498 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: maxContainerCapability: <memory:8192, vCores:4>
+2018-08-19 23:35:43,499 INFO [main] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: queue: root.cloudera
+2018-08-19 23:35:43,857 INFO [main] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Upper limit on the thread pool size is 500
+2018-08-19 23:35:43,857 INFO [main] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: The thread pool initial size is 10
+2018-08-19 23:35:44,164 INFO [main] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: yarn.client.max-cached-nodemanagers-proxies : 0
+2018-08-19 23:35:45,173 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1521362559855_0013Job Transitioned from INITED to SETUP
+2018-08-19 23:35:45,225 INFO [CommitterEvent Processor #0] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: JOB_SETUP
+2018-08-19 23:35:45,234 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1521362559855_0013Job Transitioned from SETUP to RUNNING
+2018-08-19 23:35:48,184 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1521362559855_0013_m_000000 Task Transitioned from NEW to SCHEDULED
+2018-08-19 23:35:48,277 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED
+2018-08-19 23:35:51,575 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: mapResourceRequest:<memory:1024, vCores:1>
+2018-08-19 23:35:52,567 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Event Writer setup for JobId: job_1521362559855_0013, File: hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/cloudera/.staging/job_1521362559855_0013/job_1521362559855_0013_1.jhist
+2018-08-19 23:35:52,585 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:0 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:0 ContRel:0 HostLocal:0 RackLocal:0
+2018-08-19 23:35:52,639 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=3 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:6144, vCores:7> knownNMs=1
+2018-08-19 23:35:53,902 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Got allocated containers 1
+2018-08-19 23:35:53,925 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned container container_1521362559855_0013_01_000002 to attempt_1521362559855_0013_m_000000_0
+2018-08-19 23:35:53,985 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:35:54,593 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: The job-jar file on the remote FS is hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/cloudera/.staging/job_1521362559855_0013/job.jar
+2018-08-19 23:35:54,611 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: The job-conf file on the remote FS is /tmp/hadoop-yarn/staging/cloudera/.staging/job_1521362559855_0013/job.xml
+2018-08-19 23:35:54,661 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Adding #0 tokens and #1 secret keys for NM use for launching container
+2018-08-19 23:35:54,661 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Size of containertokens_dob is 1
+2018-08-19 23:35:54,662 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Putting shuffle token in serviceData
+2018-08-19 23:35:54,972 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapred.JobConf: Task java-opts do not specify heap size. Setting task attempt jvm max heap size to -Xmx820m
+2018-08-19 23:35:55,032 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+2018-08-19 23:35:55,110 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=3 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:5120, vCores:6> knownNMs=1
+2018-08-19 23:35:56,221 INFO [IPC Server handler 0 on 58767] org.apache.hadoop.mapreduce.v2.app.client.MRClientService: Getting task report for MAP   job_1521362559855_0013. Report-size will be 1
+2018-08-19 23:35:56,230 INFO [ContainerLauncher #0] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1521362559855_0013_01_000002 taskAttempt attempt_1521362559855_0013_m_000000_0
+2018-08-19 23:35:56,352 INFO [ContainerLauncher #0] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Launching attempt_1521362559855_0013_m_000000_0
+2018-08-19 23:35:56,381 INFO [ContainerLauncher #0] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : quickstart.cloudera:44792
+2018-08-19 23:35:58,274 INFO [IPC Server handler 0 on 58767] org.apache.hadoop.mapreduce.v2.app.client.MRClientService: Getting task report for REDUCE   job_1521362559855_0013. Report-size will be 0
+2018-08-19 23:35:58,465 INFO [ContainerLauncher #0] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for attempt_1521362559855_0013_m_000000_0 : 13562
+2018-08-19 23:35:58,468 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: [attempt_1521362559855_0013_m_000000_0] using containerId: [container_1521362559855_0013_01_000002 on NM: [quickstart.cloudera:44792]
+2018-08-19 23:35:58,501 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_0 TaskAttempt Transitioned from ASSIGNED to RUNNING
+2018-08-19 23:35:58,509 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: ATTEMPT_START task_1521362559855_0013_m_000000
+2018-08-19 23:35:58,510 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1521362559855_0013_m_000000 Task Transitioned from SCHEDULED to RUNNING
+2018-08-19 23:35:59,097 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.v2.jobhistory.JobHistoryUtils: Default file system [hdfs://quickstart.cloudera:8020]
+2018-08-19 23:36:00,072 WARN [DataStreamer for file /tmp/hadoop-yarn/staging/cloudera/.staging/job_1521362559855_0013/job_1521362559855_0013.summary] org.apache.hadoop.hdfs.DFSClient: Caught exception 
+java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Thread.join(Thread.java:1281)
+	at java.lang.Thread.join(Thread.java:1355)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.closeResponder(DFSOutputStream.java:862)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.endBlock(DFSOutputStream.java:600)
+	at org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:789)
+2018-08-19 23:36:43,634 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:36:43,939 INFO [IPC Server handler 20 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1521362559855_0013_m_000002 asked for a task
+2018-08-19 23:36:43,945 INFO [IPC Server handler 20 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1521362559855_0013_m_000002 given task: attempt_1521362559855_0013_m_000000_0
+2018-08-19 23:36:56,699 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:37:09,727 INFO [IPC Server handler 17 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_0 is : 0.0
+2018-08-19 23:37:40,139 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:37:40,162 INFO [IPC Server handler 18 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_0 is : 0.0
+2018-08-19 23:37:44,256 INFO [IPC Server handler 18 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_0 is : 0.0
+2018-08-19 23:37:51,932 INFO [IPC Server handler 27 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_0 is : 1.0
+2018-08-19 23:37:55,914 INFO [IPC Server handler 27 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_0 is : 1.0
+2018-08-19 23:38:09,993 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:38:31,143 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:38:42,818 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:39:27,643 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:39:38,081 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:40:27,229 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:40:59,614 FATAL [IPC Server handler 28 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1521362559855_0013_m_000000_0 - exited : Java heap space
+2018-08-19 23:40:59,633 INFO [IPC Server handler 28 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_0: Error: Java heap space
+2018-08-19 23:40:59,649 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_0: Error: Java heap space
+2018-08-19 23:40:59,696 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_0 TaskAttempt Transitioned from RUNNING to FAIL_FINISHING_CONTAINER
+2018-08-19 23:41:00,110 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: 1 failures on node quickstart.cloudera
+2018-08-19 23:41:00,162 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_1 TaskAttempt Transitioned from NEW to UNASSIGNED
+2018-08-19 23:41:00,177 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Added attempt_1521362559855_0013_m_000000_1 to list of failed maps
+2018-08-19 23:41:01,161 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:1 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:41:01,166 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=1 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:5120, vCores:6> knownNMs=1
+2018-08-19 23:41:02,200 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Got allocated containers 1
+2018-08-19 23:41:02,201 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigning container Container: [ContainerId: container_1521362559855_0013_01_000003, NodeId: quickstart.cloudera:44792, NodeHttpAddress: quickstart.cloudera:8042, Resource: <memory:1024, vCores:1>, Priority: 5, Token: Token { kind: ContainerToken, service: 192.168.93.128:44792 }, ] to fast fail map
+2018-08-19 23:41:02,201 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned from earlierFailedMaps
+2018-08-19 23:41:02,203 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapred.JobConf: Task java-opts do not specify heap size. Setting task attempt jvm max heap size to -Xmx820m
+2018-08-19 23:41:02,203 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned container container_1521362559855_0013_01_000003 to attempt_1521362559855_0013_m_000000_1
+2018-08-19 23:41:02,204 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:2 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:2 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:41:02,205 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_1 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+2018-08-19 23:41:02,209 INFO [ContainerLauncher #1] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1521362559855_0013_01_000003 taskAttempt attempt_1521362559855_0013_m_000000_1
+2018-08-19 23:41:02,209 INFO [ContainerLauncher #1] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Launching attempt_1521362559855_0013_m_000000_1
+2018-08-19 23:41:02,210 INFO [ContainerLauncher #1] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : quickstart.cloudera:44792
+2018-08-19 23:41:02,752 INFO [ContainerLauncher #1] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for attempt_1521362559855_0013_m_000000_1 : 13562
+2018-08-19 23:41:02,753 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: [attempt_1521362559855_0013_m_000000_1] using containerId: [container_1521362559855_0013_01_000003 on NM: [quickstart.cloudera:44792]
+2018-08-19 23:41:02,754 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_1 TaskAttempt Transitioned from ASSIGNED to RUNNING
+2018-08-19 23:41:02,756 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: ATTEMPT_START task_1521362559855_0013_m_000000
+2018-08-19 23:41:03,207 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=1 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:4096, vCores:5> knownNMs=1
+2018-08-19 23:41:04,432 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Received completed container container_1521362559855_0013_01_000002
+2018-08-19 23:41:04,433 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_0 TaskAttempt Transitioned from FAIL_FINISHING_CONTAINER to FAILED
+2018-08-19 23:41:04,434 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_0: 
+2018-08-19 23:41:04,434 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:2 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:41:04,435 INFO [ContainerLauncher #2] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_COMPLETED for container container_1521362559855_0013_01_000002 taskAttempt attempt_1521362559855_0013_m_000000_0
+2018-08-19 23:41:28,603 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:41:28,661 INFO [IPC Server handler 28 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1521362559855_0013_m_000003 asked for a task
+2018-08-19 23:41:28,662 INFO [IPC Server handler 28 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1521362559855_0013_m_000003 given task: attempt_1521362559855_0013_m_000000_1
+2018-08-19 23:41:41,000 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:41:47,350 INFO [IPC Server handler 28 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_1 is : 0.0
+2018-08-19 23:41:50,618 INFO [IPC Server handler 23 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_1 is : 0.0
+2018-08-19 23:41:53,841 INFO [IPC Server handler 26 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_1 is : 1.0
+2018-08-19 23:41:57,071 INFO [IPC Server handler 14 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_1 is : 1.0
+2018-08-19 23:42:19,712 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:42:35,808 FATAL [IPC Server handler 13 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1521362559855_0013_m_000000_1 - exited : Java heap space
+2018-08-19 23:42:35,809 INFO [IPC Server handler 13 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_1: Error: Java heap space
+2018-08-19 23:42:35,816 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_1: Error: Java heap space
+2018-08-19 23:42:35,820 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_1 TaskAttempt Transitioned from RUNNING to FAIL_FINISHING_CONTAINER
+2018-08-19 23:42:36,778 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_2 TaskAttempt Transitioned from NEW to UNASSIGNED
+2018-08-19 23:42:36,786 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: 2 failures on node quickstart.cloudera
+2018-08-19 23:42:36,787 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Added attempt_1521362559855_0013_m_000000_2 to list of failed maps
+2018-08-19 23:42:37,788 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:2 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:42:37,848 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=1 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:5120, vCores:6> knownNMs=1
+2018-08-19 23:42:38,859 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Got allocated containers 1
+2018-08-19 23:42:38,860 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigning container Container: [ContainerId: container_1521362559855_0013_01_000004, NodeId: quickstart.cloudera:44792, NodeHttpAddress: quickstart.cloudera:8042, Resource: <memory:1024, vCores:1>, Priority: 5, Token: Token { kind: ContainerToken, service: 192.168.93.128:44792 }, ] to fast fail map
+2018-08-19 23:42:38,860 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned from earlierFailedMaps
+2018-08-19 23:42:38,864 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapred.JobConf: Task java-opts do not specify heap size. Setting task attempt jvm max heap size to -Xmx820m
+2018-08-19 23:42:38,865 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned container container_1521362559855_0013_01_000004 to attempt_1521362559855_0013_m_000000_2
+2018-08-19 23:42:38,866 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:2 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:42:38,868 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_2 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+2018-08-19 23:42:38,871 INFO [ContainerLauncher #3] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1521362559855_0013_01_000004 taskAttempt attempt_1521362559855_0013_m_000000_2
+2018-08-19 23:42:38,871 INFO [ContainerLauncher #3] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Launching attempt_1521362559855_0013_m_000000_2
+2018-08-19 23:42:38,872 INFO [ContainerLauncher #3] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : quickstart.cloudera:44792
+2018-08-19 23:42:39,237 INFO [ContainerLauncher #3] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for attempt_1521362559855_0013_m_000000_2 : 13562
+2018-08-19 23:42:39,238 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: [attempt_1521362559855_0013_m_000000_2] using containerId: [container_1521362559855_0013_01_000004 on NM: [quickstart.cloudera:44792]
+2018-08-19 23:42:39,239 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_2 TaskAttempt Transitioned from ASSIGNED to RUNNING
+2018-08-19 23:42:39,262 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: ATTEMPT_START task_1521362559855_0013_m_000000
+2018-08-19 23:42:39,872 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=1 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:4096, vCores:5> knownNMs=1
+2018-08-19 23:42:40,877 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Received completed container container_1521362559855_0013_01_000003
+2018-08-19 23:42:40,878 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_1 TaskAttempt Transitioned from FAIL_FINISHING_CONTAINER to FAILED
+2018-08-19 23:42:40,879 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_1: 
+2018-08-19 23:42:40,879 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:42:40,884 INFO [ContainerLauncher #4] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_COMPLETED for container container_1521362559855_0013_01_000003 taskAttempt attempt_1521362559855_0013_m_000000_1
+2018-08-19 23:42:53,855 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:42:53,914 INFO [IPC Server handler 4 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1521362559855_0013_m_000004 asked for a task
+2018-08-19 23:42:53,915 INFO [IPC Server handler 4 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1521362559855_0013_m_000004 given task: attempt_1521362559855_0013_m_000000_2
+2018-08-19 23:43:10,354 INFO [IPC Server handler 9 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_2 is : 0.0
+2018-08-19 23:43:13,568 INFO [IPC Server handler 1 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_2 is : 0.0
+2018-08-19 23:43:16,971 INFO [IPC Server handler 0 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_2 is : 1.0
+2018-08-19 23:43:20,362 INFO [IPC Server handler 9 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_2 is : 1.0
+2018-08-19 23:43:36,898 FATAL [IPC Server handler 0 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1521362559855_0013_m_000000_2 - exited : Java heap space
+2018-08-19 23:43:36,898 INFO [IPC Server handler 0 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_2: Error: Java heap space
+2018-08-19 23:43:36,899 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_2: Error: Java heap space
+2018-08-19 23:43:36,904 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_2 TaskAttempt Transitioned from RUNNING to FAIL_FINISHING_CONTAINER
+2018-08-19 23:43:36,915 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: 3 failures on node quickstart.cloudera
+2018-08-19 23:43:36,915 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: Blacklisted host quickstart.cloudera
+2018-08-19 23:43:36,916 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_3 TaskAttempt Transitioned from NEW to UNASSIGNED
+2018-08-19 23:43:36,925 INFO [Thread-52] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Added attempt_1521362559855_0013_m_000000_3 to list of failed maps
+2018-08-19 23:43:37,135 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:43:37,259 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=1 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:0, vCores:0> knownNMs=1
+2018-08-19 23:43:37,259 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: Update the blacklist for application_1521362559855_0013: blacklistAdditions=1 blacklistRemovals=0
+2018-08-19 23:43:37,259 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: Ignore blacklisting set to true. Known: 1, Blacklisted: 1, 100%
+2018-08-19 23:43:38,265 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: Update the blacklist for application_1521362559855_0013: blacklistAdditions=0 blacklistRemovals=1
+2018-08-19 23:43:38,266 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Received completed container container_1521362559855_0013_01_000004
+2018-08-19 23:43:38,266 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_2 TaskAttempt Transitioned from FAIL_FINISHING_CONTAINER to FAILED
+2018-08-19 23:43:38,267 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_2: 
+2018-08-19 23:43:38,268 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:0 AssignedMaps:0 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:43:38,274 INFO [ContainerLauncher #5] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_COMPLETED for container container_1521362559855_0013_01_000004 taskAttempt attempt_1521362559855_0013_m_000000_2
+2018-08-19 23:43:39,274 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Got allocated containers 1
+2018-08-19 23:43:39,275 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigning container Container: [ContainerId: container_1521362559855_0013_01_000005, NodeId: quickstart.cloudera:44792, NodeHttpAddress: quickstart.cloudera:8042, Resource: <memory:1024, vCores:1>, Priority: 5, Token: Token { kind: ContainerToken, service: 192.168.93.128:44792 }, ] to fast fail map
+2018-08-19 23:43:39,275 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned from earlierFailedMaps
+2018-08-19 23:43:39,278 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapred.JobConf: Task java-opts do not specify heap size. Setting task attempt jvm max heap size to -Xmx820m
+2018-08-19 23:43:39,280 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_3 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED
+2018-08-19 23:43:39,280 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Assigned container container_1521362559855_0013_01_000005 to attempt_1521362559855_0013_m_000000_3
+2018-08-19 23:43:39,280 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: After Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:4 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:43:39,282 INFO [ContainerLauncher #6] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1521362559855_0013_01_000005 taskAttempt attempt_1521362559855_0013_m_000000_3
+2018-08-19 23:43:39,282 INFO [ContainerLauncher #6] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Launching attempt_1521362559855_0013_m_000000_3
+2018-08-19 23:43:39,283 INFO [ContainerLauncher #6] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : quickstart.cloudera:44792
+2018-08-19 23:43:39,494 INFO [ContainerLauncher #6] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: Shuffle port returned by ContainerManager for attempt_1521362559855_0013_m_000000_3 : 13562
+2018-08-19 23:43:39,495 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: TaskAttempt: [attempt_1521362559855_0013_m_000000_3] using containerId: [container_1521362559855_0013_01_000005 on NM: [quickstart.cloudera:44792]
+2018-08-19 23:43:39,496 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_3 TaskAttempt Transitioned from ASSIGNED to RUNNING
+2018-08-19 23:43:39,498 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.speculate.DefaultSpeculator: ATTEMPT_START task_1521362559855_0013_m_000000
+2018-08-19 23:43:40,295 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerRequestor: getResources() for application_1521362559855_0013: ask=1 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:5120, vCores:6> knownNMs=1
+2018-08-19 23:43:51,073 INFO [Socket Reader #1 for port 43179] SecurityLogger.org.apache.hadoop.ipc.Server: Auth successful for job_1521362559855_0013 (auth:SIMPLE)
+2018-08-19 23:43:51,183 INFO [IPC Server handler 14 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID : jvm_1521362559855_0013_m_000005 asked for a task
+2018-08-19 23:43:51,184 INFO [IPC Server handler 14 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: JVM with ID: jvm_1521362559855_0013_m_000005 given task: attempt_1521362559855_0013_m_000000_3
+2018-08-19 23:44:03,424 INFO [IPC Server handler 9 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_3 is : 0.0
+2018-08-19 23:44:06,666 INFO [IPC Server handler 4 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_3 is : 0.0
+2018-08-19 23:44:09,812 INFO [IPC Server handler 18 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_3 is : 1.0
+2018-08-19 23:44:16,393 INFO [IPC Server handler 9 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Progress of TaskAttempt attempt_1521362559855_0013_m_000000_3 is : 1.0
+2018-08-19 23:44:58,958 FATAL [IPC Server handler 20 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Task: attempt_1521362559855_0013_m_000000_3 - exited : Java heap space
+2018-08-19 23:44:58,958 INFO [IPC Server handler 20 on 43179] org.apache.hadoop.mapred.TaskAttemptListenerImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_3: Error: Java heap space
+2018-08-19 23:44:58,960 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: Diagnostics report from attempt_1521362559855_0013_m_000000_3: Error: Java heap space
+2018-08-19 23:44:58,964 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_3 TaskAttempt Transitioned from RUNNING to FAIL_FINISHING_CONTAINER
+2018-08-19 23:44:59,022 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskImpl: task_1521362559855_0013_m_000000 Task Transitioned from RUNNING to FAILED
+2018-08-19 23:44:59,028 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Num completed Tasks: 1
+2018-08-19 23:44:59,029 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: Job failed as tasks failed. failedMaps:1 failedReduces:0
+2018-08-19 23:44:59,037 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1521362559855_0013Job Transitioned from RUNNING to FAIL_ABORT
+2018-08-19 23:44:59,047 INFO [CommitterEvent Processor #1] org.apache.hadoop.mapreduce.v2.app.commit.CommitterEventHandler: Processing the event EventType: JOB_ABORT
+2018-08-19 23:44:59,096 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.JobImpl: job_1521362559855_0013Job Transitioned from FAIL_ABORT to FAILED
+2018-08-19 23:44:59,143 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: We are finishing cleanly so this is the last retry
+2018-08-19 23:44:59,143 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify RMCommunicator isAMLastRetry: true
+2018-08-19 23:44:59,144 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: RMCommunicator notified that shouldUnregistered is: true
+2018-08-19 23:44:59,144 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Notify JHEH isAMLastRetry: true
+2018-08-19 23:44:59,144 INFO [Thread-87] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: JobHistoryEventHandler notified that forceJobCompletion is true
+2018-08-19 23:44:59,144 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Calling stop for all the services
+2018-08-19 23:44:59,154 INFO [Thread-87] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Stopping JobHistoryEventHandler. Size of the outstanding queue size is 0
+2018-08-19 23:44:59,391 INFO [RMCommunicator Allocator] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Before Scheduling: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:4 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:44:59,437 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copying hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/cloudera/.staging/job_1521362559855_0013/job_1521362559855_0013_1.jhist to hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013-1534701755195-cloudera-INSERT+OVERWRITE+TABL...b%0D.daily_sales_stage%28Stage-1534702499029-0-0-FAILED-root.cloudera-1534701944687.jhist_tmp
+2018-08-19 23:44:59,629 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copied to done location: hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013-1534701755195-cloudera-INSERT+OVERWRITE+TABL...b%0D.daily_sales_stage%28Stage-1534702499029-0-0-FAILED-root.cloudera-1534701944687.jhist_tmp
+2018-08-19 23:44:59,654 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copying hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/cloudera/.staging/job_1521362559855_0013/job_1521362559855_0013_1_conf.xml to hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013_conf.xml_tmp
+2018-08-19 23:44:59,779 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Copied to done location: hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013_conf.xml_tmp
+2018-08-19 23:44:59,797 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Moved tmp to done: hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013.summary_tmp to hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013.summary
+2018-08-19 23:44:59,802 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Moved tmp to done: hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013_conf.xml_tmp to hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013_conf.xml
+2018-08-19 23:44:59,808 INFO [eventHandlingThread] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Moved tmp to done: hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013-1534701755195-cloudera-INSERT+OVERWRITE+TABL...b%0D.daily_sales_stage%28Stage-1534702499029-0-0-FAILED-root.cloudera-1534701944687.jhist_tmp to hdfs://quickstart.cloudera:8020/tmp/hadoop-yarn/staging/history/done_intermediate/cloudera/job_1521362559855_0013-1534701755195-cloudera-INSERT+OVERWRITE+TABL...b%0D.daily_sales_stage%28Stage-1534702499029-0-0-FAILED-root.cloudera-1534701944687.jhist
+2018-08-19 23:44:59,825 INFO [Thread-87] org.apache.hadoop.mapreduce.jobhistory.JobHistoryEventHandler: Stopped JobHistoryEventHandler. super.stop()
+2018-08-19 23:44:59,827 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncherImpl: KILLING attempt_1521362559855_0013_m_000000_3
+2018-08-19 23:44:59,827 INFO [Thread-87] org.apache.hadoop.yarn.client.api.impl.ContainerManagementProtocolProxy: Opening proxy : quickstart.cloudera:44792
+2018-08-19 23:44:59,996 INFO [AsyncDispatcher event handler] org.apache.hadoop.mapreduce.v2.app.job.impl.TaskAttemptImpl: attempt_1521362559855_0013_m_000000_3 TaskAttempt Transitioned from FAIL_FINISHING_CONTAINER to FAILED
+2018-08-19 23:45:00,049 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Setting job diagnostics to Task failed task_1521362559855_0013_m_000000
+Job failed as tasks failed. failedMaps:1 failedReduces:0
+
+2018-08-19 23:45:00,050 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: History url is http://quickstart.cloudera:19888/jobhistory/job/job_1521362559855_0013
+2018-08-19 23:45:00,385 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Waiting for application to be successfully unregistered.
+2018-08-19 23:45:01,399 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.rm.RMContainerAllocator: Final Stats: PendingReds:0 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:1 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:4 ContRel:0 HostLocal:1 RackLocal:0
+2018-08-19 23:45:01,402 INFO [Thread-87] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Deleting staging directory hdfs://quickstart.cloudera:8020 /tmp/hadoop-yarn/staging/cloudera/.staging/job_1521362559855_0013
+2018-08-19 23:45:01,445 INFO [Thread-87] org.apache.hadoop.ipc.Server: Stopping server on 43179
+2018-08-19 23:45:01,450 INFO [IPC Server listener on 43179] org.apache.hadoop.ipc.Server: Stopping IPC Server listener on 43179
+2018-08-19 23:45:01,451 INFO [IPC Server Responder] org.apache.hadoop.ipc.Server: Stopping IPC Server Responder
+2018-08-19 23:45:01,452 INFO [TaskHeartbeatHandler PingChecker] org.apache.hadoop.mapreduce.v2.app.TaskHeartbeatHandler: TaskHeartbeatHandler thread interrupted
+2018-08-19 23:45:01,453 INFO [Ping Checker] org.apache.hadoop.yarn.util.AbstractLivelinessMonitor: TaskAttemptFinishingMonitor thread interrupted
+
